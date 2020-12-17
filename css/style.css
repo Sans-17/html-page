@@ -1,0 +1,222 @@
+body{
+    font-family: sans-serif;
+}
+
+.navbar{
+    padding:2.2rem 5.7rem 1rem 3rem; 
+}
+
+.nabvar-brand{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.subscribe-heading{
+    padding-top: 5rem;
+    color: #ffa45b;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+
+
+#title{
+    padding: 0 ;
+}
+.container-fluid{
+    padding: 0;
+}
+
+#showcase{
+    background-color: black;
+    padding: 50px;
+}
+
+.nav1{
+    padding-right: 0;
+    padding-top:1rem; 
+}
+
+.showcase-img{
+    width: 35rem;
+    height: 20rem;
+}
+
+h1{
+    color: #cfd3ce;
+    font-family: 'Merriweather', serif;
+    font-size: 3.5rem;
+}
+
+p{
+    color: grey;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h3{
+    font-family: 'Merriweather', serif;
+    padding-top: 2rem;
+}
+#boxes{
+    padding:5% 10%;
+    width: 100%;
+}
+
+.box{
+    text-align: center;
+    padding:4.5%;
+}
+
+
+.box-img{  
+    width: 7rem;
+    height: 7rem;
+}
+
+
+.footer-para{
+    text-align: center;
+    color: grey;
+}
+
+
+
+
+/* Services page*/
+
+.container{
+     border: #fff 3px double;
+
+    background-color: black;
+    
+}
+
+form{
+    padding: 1rem 0 1rem 1rem;
+}
+
+.text-1{
+     padding-left: 1rem;
+     font-family: 'merriweather',serif;
+     color: #ffa45b;
+     font-size: 1.5rem; 
+}
+
+.button1{
+    width: 12.3rem;
+}
+
+.skill-row{
+    width: 100%;
+    margin: 20px auto 50px auto;
+    line-height: 2;
+    text-align: left;
+
+}
+.gif{
+    width: 15%;
+    float: left;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.pic2{
+
+    width: 15%;
+    float: right;
+    padding-right:1rem; 
+    padding-top: 1rem;
+}
+
+.service-heading{
+    color: #ffa45b;
+    font-family: 'playfair',serif;
+}
+
+
+/* about page */
+
+#showcases{
+    background-color: white;
+    padding: 50px;
+}
+
+.card-body{
+    background-color: burlywood;
+    color: black;
+    font-family: 'playfair',serif;
+}
+
+.about-para{
+    color: grey;
+    font-family: 'playfair',serif;
+}
+
+h4{
+    font-family: 'playfair',serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+/* testimonial */
+
+#testimonials{
+    text-align: center;
+    background-color:black;
+    color: #fff;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Balsamiq',cursive;
+}
+
+.testimonial-image{
+    width: 13%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+h2{
+    font-weight: 500;
+}
+
+
+
+@media (max-width:768px){
+
+    .navbar-toggler{
+        margin-left:auto;
+    }
+
+    .showcase-img{
+        width:100%;
+    }
+
+    .form-inline{
+    margin-right:9rem;
+    }
+
+.card{
+    margin-top: 2rem;
+}
+
+.testimonial-image{
+    width:5rem;
+}
+
+.testimonial-text{
+    font-size: 2rem;
+}
+}
+
+
